@@ -9,8 +9,6 @@ const Shop = () => {
     const [products, setProducts] = useProducts();
     const [cart, setCart] = useState([]);
 
-    
-
     useEffect( () =>{
         const storedCart = getStoredCart();
         const savedCart = [];
